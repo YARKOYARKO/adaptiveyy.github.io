@@ -1,0 +1,670 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.fixed-width {
+  width:1260px;
+  margin: 0 auto;
+  padding: 0 30px;
+  height:100%;
+}
+
+header {
+  background-color:#FBFBFB;
+  height:74px;
+  display:flex;
+  align-items:center;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+  list-style: none;
+  font-family:'Roboto';
+  font-size: 25px;
+  margin-right:30px;
+  
+}
+
+a:hover {
+  color:rgb(252,85,124);
+  border-bottom: 1px solid red;
+}
+
+#phone {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+button {
+  border: 1px solid rgb(252, 85, 124);
+    color: rgb(252, 85, 124);
+    padding: 12px 40px 10px;
+    margin-left: 30px;
+    background-color: #FBFBFB;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:'Roboto';
+}
+
+
+button:hover {
+  background-color: #F7F2F0;
+}
+
+#contact-container {
+  height:100%;
+  float:right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* border:1px solid red; */
+ 
+}
+
+
+nav {
+  float:left;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* border:1px solid red; */
+}
+
+
+
+section {
+  height:700px; 
+  background-color:#FBFBFB;
+  display:flex;
+  align-items:center;
+  
+}
+
+
+#contact-container2 {
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* border:1px solid red; */
+ flex-wrap:wrap;
+ background: url(../img/DmitryAlekseev.png) no-repeat 100% ;
+ background-position: right;
+ background-size: contain;
+}
+
+
+
+h1 {
+  color:black;
+  font-family:'Roboto';
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom:23px;
+  
+}
+
+section button {
+  font-family: "Tahoma";
+  font-size:18px;
+  color:white;
+  padding:15px 38px;
+  background-color:#ff4e2e;
+  border:0px solid transparent;
+  margin:0 1px;
+  cursor: pointer;
+}
+
+section button:hover {
+  background-color:#B53705;
+}
+
+
+section span {
+  font-family: "Tahoma";
+  font-size:25px;
+  float:left;
+  color:#8993ad;
+  margin-bottom:46px;
+}
+
+
+.develop {
+  height:650px;
+  background-color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+ align-items:center;
+ align-content: center;
+  /* border:1px solid red; */
+  
+  
+}
+
+
+.develop button {
+  font-family: "Tahoma";
+  font-size:18px;
+  color:white;
+  padding:15px 38px;
+  background-color:#ff4e2e;
+  border:0px solid transparent;
+  cursor: pointer;
+  margin:30px;
+}
+
+
+.develop button:hover {
+  background-color:#B53705;
+}
+
+
+.frontendvar {
+  display:flex;
+justify-content: center;
+ align-items:center;
+ align-content: center;
+}
+
+
+
+
+.frontend {
+display:flex;
+justify-content: center;
+align-items:center;
+align-content: center;
+flex-wrap: wrap;
+text-align: center;
+margin-bottom: 80px;
+}
+
+.develop h2 {
+  font-family: "Tahoma";
+  font-size:54px; 
+  color:black;
+  font-weight: bold;
+  margin-top:100px;
+  margin-bottom: 80px;
+  
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex h2 {
+  font-family: "Tahoma";
+  font-size:54px; 
+  color:black;
+  font-weight: bold;
+  margin-top:100px;
+  margin-bottom: 80px;
+  
+}
+
+
+.frontend img {
+  margin-bottom: 20px;
+}
+
+
+.frontend p {
+  font-family: "Tahoma";
+  font-size:20px;
+  color:#8993ad;
+  
+  }
+
+  
+  
+  
+
+
+  .flex button {
+    font-family: "Tahoma";
+    font-size:18px;
+    color:white;
+    padding:15px 38px;
+    background-color:#ff4e2e;
+    border:0px solid transparent;
+    cursor: pointer;
+    margin-bottom:100px;
+  }
+  
+  .flex button:hover {
+    background-color:#B53705;
+  }
+
+
+
+  
+  .price {
+    height:857px;
+    background-color:#fbfbfb;
+  }
+     
+    
+  
+  .price h2 {
+    font-family: "Tahoma";
+    font-size:54px; 
+    color:black;
+    font-weight: bold;
+    margin-top:100px;
+    margin-bottom:100px;
+  }
+  
+  
+  
+  .site {
+  
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  align-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  }
+  
+  .site img {
+    margin-bottom: 35px;
+    
+  }
+  
+  
+  .site p {
+    font-family: "Tahoma";
+    font-size:20px;
+    color:#8993ad;
+    margin-bottom: 100px;
+    
+    }
+  
+    
+
+
+    .time {
+      height:363px;
+      background-color:#ff4e2e;
+      display:flex;
+      }
+
+      .pricedevelop {
+  display:flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+  
+  
+      }
+      
+      .pricedevelop h2 {
+        font-family: "Tahoma";
+        font-size:45px;
+         color:white;
+        font-weight: bold;
+        display:flex;
+        align-content:flex-start;
+        margin-top:89px;
+        margin-bottom: 38px;
+        margin-left:110px;
+      }
+      
+      .pricedevelop  p {
+        
+        font-family: "Tahoma";
+        font-size:18px;
+        color:white;
+        font-weight: normal;
+        padding-bottom: 20px;
+        margin-left:110px;
+        
+        
+      
+      }
+     
+      .contacts {
+        display:flex;
+  justify-content:center;
+  align-items:center;
+  align-content: center;
+  flex-wrap: wrap;
+  height:100%;
+  
+  
+      }
+
+      .phone {
+        display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-left:300px;
+        }
+
+        .orly {
+          display:flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items:center;
+          align-content: center;
+          flex-wrap: wrap;
+          margin-left:220px;
+          
+        }
+
+      .socialmenu {
+        height:263px;
+        
+      }
+
+      .menu-end ul {
+        list-style: none;
+      }
+
+      .menu-end a {
+        font-size: 18px;
+        font-family: "Tahoma";
+        color: #8993ad;
+        text-decoration: none;
+        
+      }
+
+      .phoneend {
+        font-size: 25px;
+        font-family: "Tahoma";
+        
+      }
+
+
+      .phoneend img {
+        margin-right:10px;
+      }
+
+      .phoneorder button{
+        
+        font-family: "Tahoma";
+        font-size:18px;
+        
+        text-align:center;
+        border:1px solid #ff6375;
+        color:red;
+        padding:18px 60px;
+        background-color:white;
+        margin-bottom:20px;
+      }
+
+
+      .phoneorder button:hover {
+        background-color:#8993ad;
+      }
+
+
+      footer {
+        display:flex;
+        justify-content: center;
+        height:80px;
+        background-color:#31293c;
+        text-align:center;
+      }
+      
+      footer span {
+        font-family: "Tahoma";
+        font-size:16px;
+        line-height: 80px;
+        
+        color:white;
+        font-weight: normal;
+      } 
+
+
+
+@media (max-width: 1260px){
+  nav{
+    margin-top:10px;
+    flex-direction: column;
+  }
+
+
+
+  header {
+    justify-content: center;
+    align-content:center;
+  }
+
+  a {
+    padding-bottom: 10px;
+    margin:0px auto;  
+  }
+
+
+  button {
+    border: 2px solid rgb(252, 85, 124);
+      color: rgb(252, 85, 124);
+      padding: 45px 30px;
+      margin-left: 30px;
+      background-color: #FBFBFB;
+      cursor: pointer;
+      font-size: 20px;
+      font-family:'Roboto';
+      margin-top:45px;
+  }
+  
+  
+  button:hover {
+    background-color: #F7F2F0;
+  }
+
+
+  #contact-container {
+flex-direction: row;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-wrap:wrap;
+margin:0px;  
+}
+
+h1 {
+  font-size: 35px;
+}
+
+#contact-container span {
+  display:none;
+}
+
+#contact-container2 span {
+  font-size: 22px;
+}
+
+
+#contact-container2 {
+  height:100%;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border:1px solid red; */
+ flex-wrap:wrap;
+ background:none;
+}
+
+
+
+
+
+
+
+/* тут вопрос */
+/* сделать на divах */
+
+
+.frontendvar{
+  
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin-bottom:20px;
+  width:50%;
+   }
+
+.develop h2 {
+  margin:0px;
+  margin-top:10px;
+  margin-bottom:50px;
+  font-size:25px;
+  
+  /* margin-bottom:20px; */
+}
+
+
+.frontend {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  margin:0px;
+  margin-bottom:40px;
+  
+}
+
+/* .frontend:first-child {
+  margin-top:60px;
+  
+} */
+
+.price {
+  height:1500px;
+}
+
+.develop {
+  height:900px;
+}
+
+.frontend  p{
+ font-size:18px;
+}
+
+
+  .develop button {
+    font-family: "Tahoma";
+    font-size:18px;
+    color:white;
+    padding:15px 38px;
+    background-color:#ff4e2e;
+    border:0px solid transparent;
+    cursor: pointer;
+    margin:30px;
+  }
+
+.pricedevelop h2,
+.flex h2 {
+  font-size:25px;
+}
+
+
+
+.flex h2 {
+  
+  margin-top:50px;
+  margin-bottom: 50px;
+  
+}
+
+
+
+.contacts {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+
+justify-content: center;
+  margin:0px;
+  margin-bottom:10px;
+  flex-wrap:wrap;
+}
+
+.menu-end {
+  display: none;
+}
+
+.social {
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: center;
+  margin:0px;
+  width:50%;
+  
+}
+
+.phoneorder {
+  margin-bottom:20px;
+}
+
+.social img{
+  margin-right:30px;
+  width:80%;
+}
+
+
+
+.phone,
+.orly {
+  margin:0px;
+  margin-bottom:20px;
+}
+
+
+.fixed-width {
+  width:80%;
+  margin: 0 auto;
+  padding: 0 30px;
+  height:100%;
+}
+
+.time {
+  height:450px;
+}
+
+.pricedevelop {
+     display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  margin:20px auto;
+}
+
+.pricedevelop  p {      
+ margin-bottom:20px;
+  
+}
+
+
+
